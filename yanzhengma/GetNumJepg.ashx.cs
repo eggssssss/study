@@ -11,7 +11,7 @@ namespace yanzhengma
     /// <summary>
     /// GetNumJpeg 的摘要说明
     /// </summary>
-    public class GetNumJpeg : IHttpHandler
+    public class GetNumJepg : IHttpHandler
     {
 
         public void ProcessRequest(HttpContext context)
@@ -19,7 +19,7 @@ namespace yanzhengma
             context.Response.ContentType = "text/plain";
 
             //准备画布
-            Bitmap bitmap = new Bitmap(100, 50);
+            Bitmap bitmap = new Bitmap(100, 12);
             //拿到画笔
             Graphics graphics = Graphics.FromImage(bitmap);
 
