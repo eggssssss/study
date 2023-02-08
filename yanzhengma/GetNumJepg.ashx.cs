@@ -9,9 +9,9 @@ using System.Web;
 namespace yanzhengma
 {
     /// <summary>
-    /// GetNumJepg 的摘要说明
+    /// GetNumJpeg 的摘要说明
     /// </summary>
-    public class GetNumJepg : IHttpHandler
+    public class GetNumJpeg : IHttpHandler
     {
 
         public void ProcessRequest(HttpContext context)
